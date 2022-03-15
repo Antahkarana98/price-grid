@@ -1,0 +1,48 @@
+* { -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body { font-family: "Karla", sans-serif; font-size: 16px; }
+
+body a { text-decoration: none; }
+
+section { min-height: 100vh; padding: 25px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; width: 100%; background: #e5eff5; }
+
+.container { display: -ms-grid; display: grid; -ms-grid-columns: 100%; grid-template-columns: 100%; width: 360px; margin: 0 auto; border-radius: 8px; -webkit-box-shadow: 0 0 14px 1px #00000024; box-shadow: 0 0 14px 1px #00000024; overflow: hidden; }
+
+.container .box { padding: 30px; }
+
+.container .box1 { background: #fff; }
+
+.container .box1 h2 { color: #2ab2af; font-weight: 700; }
+
+.container .box1 h3 { color: #c0df34; font-weight: 700; }
+
+.container .box1 p { color: #98a6bd; font-size: 1rem; line-height: 1.5rem; }
+
+.container .box2 { background: #2ab2af; }
+
+.container .box2 h3 { color: #fff; font-weight: 700; font-size: 1.2rem; }
+
+.container .box2 p { color: #fff; font-size: 1rem; }
+
+.container .box2 p .price { color: #fff; font-size: 3rem; font-weight: 700; margin-right: 15px; }
+
+.container .box2 p span { color: rgba(255, 255, 255, 0.8); }
+
+.container .box2 .button { text-align: center; color: #fff; background: #c0df34; padding: 15px; border-radius: 5px; display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; -webkit-box-align: center; -ms-flex-align: center; align-items: center; }
+
+.container .box3 { background: #3e7474; }
+
+.container .box3 h3 { color: #fff; }
+
+.container .box3 ul { padding-left: 0; }
+
+.container .box3 ul li { list-style-type: none; color: #fff; padding-bottom: 4px; padding-left: 0; }
+
+.container .box3 ul li a:visited { color: #fff; }
+
+.container .box3 ul li a:hover { color: #ccc; }
+
+@media screen and (min-width: 800px) { .container { width: 50%; -ms-grid-columns: 50% 50%; grid-template-columns: 50% 50%; }
+  .box1 { -ms-grid-row: 1; -ms-grid-row-span: 1; -ms-grid-column: 1; -ms-grid-column-span: 2; grid-area: 1/1/2/3; }
+  .box2, .box3 { -ms-grid-row: 2; grid-row: 2; } }
+/*# sourceMappingURL=styles.css.map */
